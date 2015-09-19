@@ -84,11 +84,13 @@ $(document).ready(function () {
 	});
 
 	$('.colors-box').on('mouseleave', function () {
-		box = $(this);
-		box.css('opacity', '');
-		setTimeout(function () {
-			box.css('display', '');
-		}, 200);
+		if ($('body').hasClass('mobile') === false) {
+			box = $(this);
+			box.css('opacity', '');
+			setTimeout(function () {
+				box.css('display', '');
+			}, 200);
+		}
 	});
 
 	$('.color').on('click', function (e) {
@@ -120,8 +122,6 @@ $(document).ready(function () {
 				box.css('display', '');
 			}, 200);
 		}
-
-		e.stopPropagation();
 
 	});
 

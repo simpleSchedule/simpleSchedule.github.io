@@ -123,7 +123,7 @@
 
 /* CURSORS */
 
-.arrow-button, .indicator-bubble, .colors-box .color, button, .table-selectable, .input-checkbox-container, .select-time, .add-time-button, .delete-me , .start-time, .end-time, .fab-main-container, .fab-mini-container, .fab-main-container *, .fab-mini-container *,
+.arrow-button, .colors-box .color, button, .table-selectable, .input-checkbox-container, .select-time, .add-time-button, .delete-me , .start-time, .end-time, .fab-main-container, .fab-mini-container, .fab-main-container *, .fab-mini-container *,
 .times-container, .color-picker, .input-checkbox, .input-checkbox-container label, .card-tab, .drawer-link, .header .button, .drawer-button, .tab, .tab-avatar, .header-button {
 	cursor: pointer;
 }

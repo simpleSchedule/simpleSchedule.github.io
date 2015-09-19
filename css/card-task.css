@@ -1,0 +1,12 @@
+.task-header-inputs div {
+	float: left !important;
+}
+
+.task-header-inputs .input-text-number-second {
+    margin-left: 20px;
+	margin-top: 30px;
+}
+
+.task-header-inputs .input-text-date input {
+	text-align: left !important;
+}

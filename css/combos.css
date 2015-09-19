@@ -1,0 +1,207 @@
+/* FONTS */
+.pt10-light, .pt12-light, .pt13-light, .pt14-light, .pt16-light, .pt18-light, .pt24-light, .pt32-light, .pt40-light, .pt10-dark, .pt12-dark, .pt13-dark, .pt14-dark, .pt16-dark, .pt18-dark, .pt24-dark, .pt32-dark, .pt40-dark {
+	font-family: Roboto;
+}
+
+.pt10-light, .pt12-light, .pt13-light, .pt14-light, .pt16-light, .pt18-light, .pt24-light, .pt32-light, .pt40-light {color: white;}
+
+.pt10-dark, .pt12-dark, .pt13-dark, .pt14-dark, .pt16-dark, .pt18-dark, .pt24-dark, .pt32-dark, .pt40-dark {color: rgba(0,0,0,0.87);}
+
+.pt10-dark, .pt10-light {font-size: 10px;}
+
+.pt12-dark, .pt12-light {font-size: 12px;}
+
+.pt13-dark, .pt13-light {font-size: 13px;}
+
+.pt14-dark, .pt14-light {font-size: 14px;}
+
+.pt16-dark, .pt16-light {font-size: 16px;}
+
+.pt18-dark, .pt18-light {font-size: 18px;}
+
+.pt24-dark, .pt24-light {font-size: 24px;}
+
+.pt32-dark, .pt32-light {font-size: 32px;}
+
+.pt40-dark, .pt40-light {font-size: 40px;}
+
+.pt-hint-dark {
+	color: rgba(0,0,0,0.38) !important;
+}
+
+.pt-hint-light {
+	color: rgba(255,255,255,0.30) !important;
+}
+
+.pt-caption-dark {
+	color: rgba(0,0,0,0.54) !important;
+}
+
+.pt-caption-light {
+	color: rgba(255,255,255,0.54) !important;
+}
+
+.pt-button, button {
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+.tab-color-dark {
+	color: rgba(0,0,0,0.7);
+	text-transform: uppercase;
+	font-weight: 500;
+}
+
+
+
+/* COLOR PALLETTE */
+
+
+.primary-bg-color {background-color: #607D8B;}
+
+.primary-color {color: #607D8B !important;}
+
+.secondary-color {color: #ad1457 !important;}
+
+.secondary-bg-color, .input-indicator-active-dark {background-color: #ad1457;}
+
+.tab-color {color: rgba(255,255,255,0.7);}
+
+.input-indicator-active-light {background-color: white;}
+
+.input-indicator-dark {background-color: rgba(0,0,0,0.3);}
+
+.input-color-light {color: white;}
+
+.input-color-dark, .checkbox-outline-dark {color: rgba(0,0,0,0.5);}
+
+.white-washed-color {color: rgba(255,255,255,0.7);}
+
+/* Drawer icons */
+.drawer-icon i {color: rgba(0,0,0,0.7);}
+
+.tooltip-dark {background-color: rgba(70,70,70,0.9);}
+
+.tooltip-light {background-color: rgba(255,255,255,0.9);}
+
+
+.drawer-link-active, .header-close:hover, button:hover, .option-selected, .table-selectable span:hover, .card-tab:hover, .drawer-link:hover, .add-time-button:hover {
+	background-color: rgba(0,0,0,0.1);
+}
+
+/* Selection menu hover */
+.table-selectable-box div:hover {background-color: rgba(0,0,0,0.03);}
+
+/* Menu currently selected item hover */
+.drawer-link-active:hover, .option-selected:hover {background-color: rgba(0,0,0,0.15) !important;}
+
+
+
+
+/* BOX-SHADOWS */
+
+.z1 {box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);}
+
+.z2, .color:hover {box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);}
+
+.z3, .fab-main:hover, .fab-mini:hover, .arrow-button:hover {
+	box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+}
+
+.z4 {box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);}
+
+.z5 {box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);}
+
+
+
+
+
+
+
+
+
+
+/* CURSORS */
+
+.arrow-button, .indicator-bubble, .colors-box .color, button, .table-selectable, .input-checkbox-container, .select-time, .add-time-button, .delete-me , .start-time, .end-time, .fab-main-container, .fab-mini-container, .fab-main-container *, .fab-mini-container *,
+.times-container, .color-picker, .input-checkbox, .input-checkbox-container label, .card-tab, .drawer-link, .header .button, .drawer-button, .tab, .tab-avatar, .header-button {
+	cursor: pointer;
+}
+
+.colors-box, .tooltip-dark, .tooltip-light, .header .title, .day-card-row, .day-card, .times-container, .header-title {
+	cursor: default;
+}
+
+label {
+	cursor: text;
+	white-space: nowrap;
+}
+
+
+
+
+
+/* TRANSITIONS */
+
+.intro-page, .intro-card-overflow, .arrow-button, .indicator-bubble, .drawer-link, .profile-picture, .tooltip-dark, .tooltip-light, .fab-main-container *, .fab-mini-container, .fab-mini-container *, .day-cards-flow, .input-text-dark, .screen-dimmer-color, .fab-tooltip, .input-checkbox-container, .input-checkbox-label, .input-checkbox i, .card-tabs-bar, .tab, .card-indicator, .card-top-bar, .drawer-link, .drawer-link .material-icons, .card-header, label, .input-indicator-active, .card, .card-minimized, .tab-indicator, .tab, .screen-dimmer, .drawer, .header {
+	transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
+}
+
+.selected-color, .table-selectable-box, .colors-box, .colors-box .color, .profile-box, .profile-box * {
+	transition: all 200ms cubic-bezier(0.4, 0, 1, 1);
+}
+
+button {
+	transition: 0s !important;
+}
+
+
+/* Z-INDEXES */
+
+.screen-dimmer {
+	z-index: -1;
+}
+
+.profile-box-hider, .card-top-bar {
+	z-index: 1;
+}
+
+.page-top-bar {
+	z-index: 2;
+}
+
+ {
+	z-index: 3;
+}
+
+.profile {
+	z-index: 4;
+}
+
+.profile-picture {
+	z-index: 5;
+}
+
+ {
+	z-index: 6;
+}
+
+ {
+	z-index: 7;
+}
+
+ {
+	z-index: 8;
+}
+
+.drawer, .fab-mini-container, .tooltip-dark, .tooltip-light {
+	z-index: 9;
+}
+
+.fab-main-container, .card {
+	z-index: 10;
+}
+
+.table-selectable-box, .colors-box {
+	z-index: 11;
+}

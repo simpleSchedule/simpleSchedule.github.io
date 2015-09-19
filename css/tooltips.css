@@ -1,0 +1,26 @@
+/* G L O B A L */
+
+.tooltip-task, .tooltip-event {
+	position: fixed;
+	right: 85px;
+}
+
+.tooltip-task {
+	bottom: 134px;
+}
+
+.tooltip-event {
+	bottom: 84px;
+}
+
+
+
+.tooltip-dark, .tooltip-light {
+	height: 22px;
+	font-weight: 500;
+	line-height: 22px;
+	border-radius: 3px;
+	padding: 0 8px;
+	text-align: center;
+	opacity: 0;
+}

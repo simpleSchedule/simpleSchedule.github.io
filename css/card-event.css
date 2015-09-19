@@ -1,0 +1,114 @@
+/* TABS (Mon-Sun) */
+
+.card-tabs-container {
+	width: 100%;
+	margin-top: 20px;
+	padding-bottom: 10px;
+}
+
+	.card-tabs-bar {
+		margin: 0 auto;
+		height: 100%;
+		position: relative;
+	}
+
+		.card-tab {
+			width: 14.2857%;
+			height: 100%;
+			line-height: 36px;
+			text-align: center;
+			float: left;
+			transform: translateX(0px);
+		}
+
+
+		.card-indicator-container {
+			width: 100%;
+			height: 2px;
+			position: absolute;
+			top: 34px;
+			left: 0;
+		}
+		.card-indicator {
+			height: 2px;
+			width: 55px;
+			float: left;
+		}
+
+/* Container to hold the actual added times */
+
+/* The whole block for all time related divs */
+
+.times-container {
+	width: 100%;
+	height: auto;
+	display: inline-block;
+	padding: 10px 0;
+}
+
+	.add-time-button {
+			height: 36px;
+			display: inline-block;
+			line-height: 36px;
+			padding: 0 8px;
+		}
+
+		.add-time-button-one-day {
+			display: none;
+		}
+
+		.add-time-button div {
+			float: left;
+		}
+
+		.add-time-button-icon {
+			float: left;
+			height: 100%;
+			width: 18px;
+			padding-left: 8px;
+			background-image: url(../svg/add_18_dark.svg);
+			background-size: 18px;
+			background-position: right center;
+			background-repeat: no-repeat;
+			opacity: 0.87;
+		}
+
+	.day-cards-container {
+		width: 100%;
+		display: inline-block;
+		height: auto;
+		overflow: hidden;
+	}
+
+		.day-cards-flow {
+			width: 700%;
+			height: 100%;
+			display: inline-block;
+		}
+
+			.day-card {
+				width: 14.2857%;
+				height: 100%;
+				min-height: 31px;
+				display: inline-block;
+				float: left;
+			}
+
+			.one-day-card {
+				display: none;
+				width: 100%;
+				height: auto;
+				overflow: hidden;
+			}
+
+				.day-card-row-container {
+					width: 100%;
+					height: 30px;
+					display: block;
+				}
+
+					.day-card-row {
+						width: 100%;
+						height: 100%;
+						position: relative;
+					}

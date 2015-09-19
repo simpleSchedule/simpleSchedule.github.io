@@ -1,0 +1,65 @@
+.drawer {
+	width: 80%;
+	max-width: 270px;
+	height: calc(100% + 6px);
+	background-color: white;
+	box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.14), 0px 3px 1px -2px rgba(0, 0, 0, 0.2), 0px 1px 5px 0px rgba(0, 0, 0, 0.12);
+	position: fixed;
+	overflow: auto;
+	top: 0;
+	transform: translateX(-110%);
+	padding-bottom: 50px;
+}
+
+.drawer-container {
+
+}
+
+.drawer-links-container {
+	float: left;
+}
+
+	.drawer-header {
+		width: 100%;
+		height: 140px;
+		background-image: url(../img/drawer-header.png);
+		background-repeat: no-repeat;
+		background-size: 100% auto;
+		background-position: top center;
+		float: left;
+	}
+
+		.drawer-header-dimmer {
+		}
+
+	.drawer-bottom-links-container {
+		position: absolute;
+		bottom: 50px;
+		left: 0;
+	}
+
+	.drawer-link {
+		width: 100%;
+		height: 50px;
+		line-height: 50px;
+		float: left;
+		font-weight: 500;
+	}
+
+		.drawer-link .material-icons {
+			line-height: 50px;
+		}
+
+	.drawer-seperator {
+		width: 100%;
+		height: 1px;
+		float: left;
+	}
+
+		.drawer-icon {
+			width: 50px;
+			height: 56px;
+			text-align: center;
+			padding-right: 16px;
+			float: left;
+		}

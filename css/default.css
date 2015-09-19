@@ -1,0 +1,88 @@
+html, body {
+	margin: 0;
+	height: 100vh;
+	display: block;
+	font-family: Roboto;
+	color: rgba(0,0,0,0.7);
+	overflow: hidden;
+}
+
+div {
+	display: block;
+}
+
+html {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+* {
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	transform: transale3d(0,0,0);
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+}
+
+input {
+	-webkit-touch-callout: text;
+	-webkit-user-select: text;
+	-khtml-user-select: text;
+	-moz-user-select: text;
+	-ms-user-select: text;
+	user-select: text;
+}
+
+textarea {
+	resize: none;
+}
+
+input:focus, select:focus, textarea:focus, button:focus {
+	outline: none;
+}
+
+.screen-dimmer {
+	position: fixed;
+	width: 100%;
+	height: calc(100% + 80px);
+	background-color: black;
+	left: 0;
+	top: 0;
+	opacity: 0;
+}
+
+.screen-dimmer-intro {
+	opacity: 0.55;
+	z-index: 7 !important;
+}
+
+.fab-main .icon {
+	background-image: url(../svg/add_24.svg);
+}
+
+.fab-mini .icon-task {
+	background-image: url(../svg/edit_18.svg);
+}
+
+.fab-mini .icon-event {
+	background-image: url(../svg/add_18.svg);
+}
+
+.icon-cancel {
+	background-image: url(../svg/close_24.svg);
+}
+
+.icon-check {
+	background-image: url(../svg/check_24.svg);
+}
+
+iframe {
+	display: none !important;
+}

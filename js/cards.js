@@ -91,7 +91,7 @@ $(document).ready(function () {
 		}, 200);
 	});
 
-	$('.color').on('click', function () {
+	$('.color').on('click', function (e) {
 		clicked = $(this);
 		box = $(this).parent();
 		box.find('.selected-color').css('opacity', '');
@@ -120,6 +120,8 @@ $(document).ready(function () {
 				box.css('display', '');
 			}, 200);
 		}
+
+		e.stopPropagation();
 
 	});
 

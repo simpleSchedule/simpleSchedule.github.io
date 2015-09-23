@@ -58,7 +58,7 @@ var helper = (function() {
 			$('#authResult').append(' ' + field + ': ' + authResult[field] + '<br/>');
 		}
 		if (authResult.isSignedIn.get()) {
-			window.location.replace("http://stackoverflow.com");
+			$(location).attr('href', 'http://stackoverflow.com')
 			$('#gConnect').hide();
 			helper.profile();
 		} else if (authResult['error'] ||

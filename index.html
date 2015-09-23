@@ -58,9 +58,10 @@ var helper = (function() {
 			$('#authResult').append(' ' + field + ': ' + authResult[field] + '<br/>');
 		}
 		if (authResult.isSignedIn.get()) {
+
+			$(location).attr('href', 'http://stackoverflow.com')
 			$('#gConnect').hide();
 			helper.profile();
-			helper.people();
 		} else if (authResult['error'] ||
 				   authResult.currentUser.get().getAuthResponse() == null) {
 			// There was an error, which means the user is not signed in.
@@ -82,16 +83,6 @@ var helper = (function() {
 		},
 
 		/**
-		* Gets and renders the list of people visible to this app.
-		*/
-		people: function() {
-			gapi.client.plus.people.list({
-				'userId': 'me',
-			}).then(function(res) {
-			});
-		},
-
-		/**
 		* Gets and renders the currently signed in user's profile data.
 		*/
 		profile: function(){
@@ -99,7 +90,9 @@ var helper = (function() {
 				'userId': 'me'
 			}).then(function(res) {
 				var profile = res.result;
+				console.log('logged in');
 				$('.profile-name').append(profile.displayName);
+				$(location).attr('href', 'http://stackoverflow.com');
 		  $('.profile').append('<div class="profile-picture" style="background-image: url(' + profile.image.url + ');"></div>');
 		  console.log(profile.displayName);
 				/*if (profile.emails) {
@@ -373,7 +366,7 @@ function startApp() {
 					</div>
 				</div>
 			</div>
-    
+
             <div class="login-button-container">
                 <center>
                 <div id="gConnect" class="login-button">

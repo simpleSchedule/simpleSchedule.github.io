@@ -241,7 +241,7 @@
 
     .login-button-container {
         position: absolute;
-        bottom: 0;
+        bottom: -70px;
         left: 0;
     }
 

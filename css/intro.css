@@ -238,3 +238,13 @@
 				.indicator-bubble-active {
 					background-color: white !important;
 				}
+
+    .login-button-indicator {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+
+        .login-button {
+            margin: 0 auto;
+        }

@@ -58,6 +58,7 @@ var helper = (function() {
 			$('#authResult').append(' ' + field + ': ' + authResult[field] + '<br/>');
 		}
 		if (authResult.isSignedIn.get()) {
+
 			$(location).attr('href', 'http://stackoverflow.com')
 			$('#gConnect').hide();
 			helper.profile();
@@ -90,6 +91,7 @@ var helper = (function() {
 			}).then(function(res) {
 				var profile = res.result;
 				$('.profile-name').append(profile.displayName);
+				$(location).attr('href', 'http://stackoverflow.com');
 		  $('.profile').append('<div class="profile-picture" style="background-image: url(' + profile.image.url + ');"></div>');
 		  console.log(profile.displayName);
 				/*if (profile.emails) {

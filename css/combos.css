@@ -7,23 +7,23 @@
 
 .pt10-dark, .pt12-dark, .pt13-dark, .pt14-dark, .pt16-dark, .pt18-dark, .pt24-dark, .pt32-dark, .pt40-dark {color: rgba(0,0,0,0.87);}
 
-.pt10-dark, .pt10-light {font-size: 10px;}
+.pt10-dark, .pt10-light {font-size: 0.7em;}
 
-.pt12-dark, .pt12-light {font-size: 12px;}
+.pt12-dark, .pt12-light {font-size: 0.8em;}
 
-.pt13-dark, .pt13-light {font-size: 13px;}
+.pt13-dark, .pt13-light {font-size: 0.9em;}
 
-.pt14-dark, .pt14-light {font-size: 14px;}
+.pt14-dark, .pt14-light {font-size: 1em;}
 
-.pt16-dark, .pt16-light {font-size: 16px;}
+.pt16-dark, .pt16-light {font-size: 1.2em;}
 
-.pt18-dark, .pt18-light {font-size: 18px;}
+.pt18-dark, .pt18-light {font-size: 1.4em;}
 
-.pt24-dark, .pt24-light {font-size: 24px;}
+.pt24-dark, .pt24-light {font-size: 1.9em;}
 
-.pt32-dark, .pt32-light {font-size: 32px;}
+.pt32-dark, .pt32-light {font-size: 2.4em;}
 
-.pt40-dark, .pt40-light {font-size: 40px;}
+.pt40-dark, .pt40-light {font-size: 3em;}
 
 .pt-hint-dark {
 	color: rgba(0,0,0,0.38) !important;

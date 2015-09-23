@@ -58,8 +58,6 @@ var helper = (function() {
 			$('#authResult').append(' ' + field + ': ' + authResult[field] + '<br/>');
 		}
 		if (authResult.isSignedIn.get()) {
-
-			$(location).attr('href', 'http://stackoverflow.com')
 			$('#gConnect').hide();
 			helper.profile();
 		} else if (authResult['error'] ||
@@ -89,14 +87,7 @@ var helper = (function() {
 			gapi.client.plus.people.get({
 				'userId': 'me'
 			}).then(function(res) {
-				var profile = res.result;
-				console.log('logged in');
-				$('.profile-name').append(profile.displayName);
-				$(location).attr('href', 'http://stackoverflow.com');
-		  $('.profile').append('<div class="profile-picture" style="background-image: url(' + profile.image.url + ');"></div>');
-		  console.log(profile.displayName);
-
-			$(location).attr('href', 'http://stackoverflow.com')
+			$(location).attr('href', 'localhost/landing.html')
 				/*if (profile.emails) {
 				$('#profile').append('<br/>Emails: ');
 				for (var i=0; i < profile.emails.length; i++){
